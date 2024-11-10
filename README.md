@@ -34,3 +34,19 @@ In the redesign, I aim to make the site more visually pleasing. The mood should 
 **Here are 3 gallery sites to inspire:**
 
 [The Kube, Gibsons BC](https://thekube.ca/ "The Kube gallery home page")
+
+![The Kube home page is eye catching!](images/kube1.jpg "The Kube home page")
+
+![The Kube home page is eye catching!](images/kube2.jpg "The Kube home page")
+
+[Gallery Merrick, Victoria BC](https://www.gallerymerrick.com/ "Gallery Merrick home page")
+
+![Stunning images come first at Gallery Merrick!](images/merrick1.jpg "Gallery Merrick home page")
+
+![Hero displays art available](images/merrick2.jpg "Gallery Merrick home page")
+
+[Tofino Gallery of Contemporary Art, Tofino BC](https://tofinogalleryofcontemporaryart.com/ "Tofino Gallery home page")
+
+![Tofino Gallery home page has a clear call to action](images/tofino1.jpg "Tofino Gallery home page")
+
+![Tofino Gallery CTA for artists](images/tofino2.jpg "Tofino Gallery home page")
