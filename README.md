@@ -122,8 +122,12 @@ Next row:
 **6. Footer**
 
 - Map (left): Embedded Google Map
-- Heading (right): Land Acknowledgment statement
-- Heading (right, below): Hours, Address, phone number, email.
+- Heading (right): "Land Acknowledgment"
+- Heading (right, below): "Gallery Info"
+  - Hours
+  - Address
+  - phone number
+  - email.
 
 Second footer
 
