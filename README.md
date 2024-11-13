@@ -153,7 +153,7 @@ Second footer
 
 - Heading: "Upcoming Shows"
 - Paragraph: Brief introduction to upcoming exhibitions
-- List or grid of upcoming exhiitions including:
+- List or grid of upcoming exhibitions including:
   - Thumbnail to medium sized images of each show
   - Title, dates, and short artist bio/description
   - **More info** button that would link to a more detailed page.
@@ -161,7 +161,7 @@ Second footer
 **4. Past Shows Section**
 
 - Heading: See Our Past Shows
-- Grid or slidshow:
+- Grid or slideshow:
   - Images of past shows with titles and dates
   - Each image could link to a page with images
 
@@ -194,39 +194,36 @@ Second footer
 
 **2. Hero Section**
 
-- Image: High quality image of feature art work currently or upcoming at the gallery
-- Heading: Past, Present, and Future Shows
-- Subheading: Explore our exhibits celebrating local artists.
-  - CTA: Browse our artists
+- Image: High quality image of featured artist or gallery image
+- Heading: Local Artists of the Comox Valley and Vancouver Island
+- Subheading: Discover and connect with artists from our community
+  - CTA: join our artist directory (leads to a contact form or submission instructions)
 
-**3. Upcoming Show Section**
+**3. About the Artist Directory Section**
 
-- Heading: "Upcoming Shows"
-- Paragraph: Brief introduction to upcoming exhibitions
-- List or grid of upcoming exhiitions including:
-  - Thumbnail to medium sized images of each show
-  - Title, dates, and short artist bio/description
-  - **More info** button that would link to a more detailed page.
+- Heading: About Our Artist Directory
+- Paragraph: Brief explanation about how the directory works and who can be included
+- CTA: Become a member today and join the directory (leads to membership form)
 
-**4. Past Shows Section**
+**4. Artist Directory Table Section**
 
-- Heading: See Our Past Shows
-- Grid or slidshow:
-  - Images of past shows with titles and dates
-  - Each image could link to a page with images
+- Heading: Meet Our Artists
+- Subheading: Browse through our featured artists and learn more about their work.
+- Table:
+  - Artist profile image
+  - Featured artwork image
+  - Artist name
+  - Studio Name
+  - Location
+  - Medium: type of work they make
+  - Contact info email or phone
+  - Social Media tag
 
-**5. Artist Submissions Section**
+**5. Artist Directory Submissions Section**
 
-- Heading: Submit Your Artwork to Exhibit!
-- Paragraph: Brief paragraph encouraging artists to apply for shows
-- Artist Submission Form
-  - Form Fields:
-    - Name (text input)
-    - Email (email input)
-    - Medium (text input or radio buttons)
-    - Artwork image upload (file upload)
-    - Short Artist Bio and statement (text area)
-  - Button: Submit Your Work
+- Heading: Ready to be featured?
+- Subheading: If you're a local artist and would like to join our directory, send us your bio and artwork examples.
+- CTA: Submit Your Work for the Directory (linked to contact form or email)
 
 **6. Footer**
 
