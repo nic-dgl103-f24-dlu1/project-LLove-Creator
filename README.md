@@ -128,3 +128,49 @@ Second footer
 - Logo
 - Social media links
 - Privacy policy and copyright
+
+### Shows Page
+
+**1. Header**
+
+- Same as home page
+
+**2. Hero Section**
+
+- Image: High quality image of feature art work currently or upcoming at the gallery
+- Heading: Past, Present, and Future Shows
+- Subheading: Explore our exhibits celebrating local artists.
+  - CTA: See current shows
+
+**3. Upcoming Show Section**
+
+- Heading: "Upcoming Shows"
+- Paragraph: Brief introduction to upcoming exhibitions
+- List or grid of upcoming exhiitions including:
+  - Thumbnail to medium sized images of each show
+  - Title, dates, and short artist bio/description
+  - **More info** button that would link to a more detailed page.
+
+**4. Past Shows Section**
+
+- Heading: See Our Past Shows
+- Grid or slidshow:
+  - Images of past shows with titles and dates
+  - Each image could link to a page with images
+
+**5. Artist Submissions Section**
+
+- Heading: Submit Your Artwork to Exhibit!
+- Paragraph: Brief paragraph encouraging artists to apply for shows
+- Artist Submission Form
+  - Form Fields:
+    - Name (text input)
+    - Email (email input)
+    - Medium (text input or radio buttons)
+    - Artwork image upload (file upload)
+    - Short Artist Bio and statement (text area)
+  - Button: Submit Your Work
+
+**6. Footer**
+
+- Same as home page
