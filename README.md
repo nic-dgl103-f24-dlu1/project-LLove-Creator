@@ -73,6 +73,8 @@ As with many galleries, Pearl Ellis uses san serif fonts. The logo appears to be
 
 ## Pearl Ellis Gallery Webpage Plan
 
+---
+
 ### Home page
 
 **1. Header**
@@ -89,24 +91,24 @@ As with many galleries, Pearl Ellis uses san serif fonts. The logo appears to be
 
 - Image: High quality image of feature art work currently at the gallery
   - Heading: Welcome to your local gallery, connecting Comox Valley artists with art lovers.
-  - CTA - “See what’s up now”
+  - CTA - “See current shows”
 
 **3. About Section**
 
 - Heading: “About Us”
 - Paragraph: brief introduction to the gallery
-  - Link to “Read more” on the about page
+  - Link: “Read more” on the about page
 
 **4. Workshops Section**
 
 - Image: members creating in the space
-- Heading (right):
+- Heading (right):Creative Workshops
 - Paragraph: brief paragraph about workshops
   - CTA: sign up now
 
 Next row:
 
-- Heading (left):
+- Heading (left): Host a Workshop
 - Paragraph: Brief call out to give a creative workshop
   - CTA: Contact us with your ideas
 - Image: Authentic image of workshop or craft tools on table.
@@ -119,7 +121,7 @@ Next row:
 
 **6. Footer**
 
-- Map (left): Google map linked in
+- Map (left): Embedded Google Map
 - Heading (right): Land Acknowledgment statement
 - Heading (right, below): Hours, Address, phone number, email.
 
@@ -128,8 +130,13 @@ Second footer
 - Logo
 - Social media links
 - Privacy policy and copyright
+- Disclaimer: "This is a fictional website designed and coded as an educational exercise."
+
+---
 
 ### Shows Page
+
+---
 
 **1. Header**
 
@@ -141,6 +148,56 @@ Second footer
 - Heading: Past, Present, and Future Shows
 - Subheading: Explore our exhibits celebrating local artists.
   - CTA: See current shows
+
+**3. Upcoming Show Section**
+
+- Heading: "Upcoming Shows"
+- Paragraph: Brief introduction to upcoming exhibitions
+- List or grid of upcoming exhiitions including:
+  - Thumbnail to medium sized images of each show
+  - Title, dates, and short artist bio/description
+  - **More info** button that would link to a more detailed page.
+
+**4. Past Shows Section**
+
+- Heading: See Our Past Shows
+- Grid or slidshow:
+  - Images of past shows with titles and dates
+  - Each image could link to a page with images
+
+**5. Artist Submissions Section**
+
+- Heading: Submit Your Artwork to Exhibit!
+- Paragraph: Brief paragraph encouraging artists to apply for shows
+- Artist Submission Form
+  - Form Fields:
+    - Name (text input)
+    - Email (email input)
+    - Medium (text input or radio buttons)
+    - Artwork image upload (file upload)
+    - Short Artist Bio and statement (text area)
+  - Button: Submit Your Work
+
+**6. Footer**
+
+- Same as home page
+
+---
+
+### Artist Directory Page Outline
+
+---
+
+**1. Header**
+
+- Same as home page
+
+**2. Hero Section**
+
+- Image: High quality image of feature art work currently or upcoming at the gallery
+- Heading: Past, Present, and Future Shows
+- Subheading: Explore our exhibits celebrating local artists.
+  - CTA: Browse our artists
 
 **3. Upcoming Show Section**
 
