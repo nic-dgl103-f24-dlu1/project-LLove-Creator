@@ -68,3 +68,63 @@ Pearl Ellis has a logo and brand colours I can use for their site. The problem i
 ### Fonts
 
 As with many galleries, Pearl Ellis uses san serif fonts. The logo appears to be Neu Frutiger, which is very similar in style to Roboto. To maintain consistency with the branding I will use Roboto for headings and open sans for body copy.
+
+---
+
+## Pearl Ellis Gallery Webpage Plan
+
+### Home page
+
+**1. Header**
+
+- Logo
+- Main Navigation:
+  - Home
+  - Shows
+  - Workshops
+  - Contact
+  - Artist Directory
+
+**2. Hero Section**
+
+- Image: High quality image of feature art work currently at the gallery
+  - Heading: Welcome to your local gallery, connecting Comox Valley artists with art lovers.
+  - CTA - “See what’s up now”
+
+**3. About Section**
+
+- Heading: “About Us”
+- Paragraph: brief introduction to the gallery
+  - Link to “Read more” on the about page
+
+**4. Workshops Section**
+
+- Image: members creating in the space
+- Heading (right):
+- Paragraph: brief paragraph about workshops
+  - CTA: sign up now
+
+Next row:
+
+- Heading (left):
+- Paragraph: Brief call out to give a creative workshop
+  - CTA: Contact us with your ideas
+- Image: Authentic image of workshop or craft tools on table.
+
+**5. Artist Section**
+
+- Heading: Show your work with us!
+- Paragraph: Brief paragraph encouraging artists to apply for shows
+  - CTA: “Apply to show”
+
+**6. Footer**
+
+- Map (left): Google map linked in
+- Heading (right): Land Acknowledgment statement
+- Heading (right, below): Hours, Address, phone number, email.
+
+Second footer
+
+- Logo
+- Social media links
+- Privacy policy and copyright
