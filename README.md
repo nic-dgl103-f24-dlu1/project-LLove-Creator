@@ -27,9 +27,13 @@ Some of the issues on the site that could be improved are as follows:
 - The layout is designed with mobile in mind, but is poorly designed for laptop view, with long lines of text and disorganized section layouts in the footer
 - Site uses many colors and doesn’t follow the 60-30-10 rule, or consistently use branding colors
 
-### Look and feel
+## Look and feel
+
+### Mood
 
 In the redesign, I aim to make the site more visually pleasing. The mood should be welcoming and approachable with images showcasing their artists, events, and workshops. The site should have a clear, uncluttered rhythm and calls to action.
+
+### Inspiration
 
 **Here are 3 gallery sites to inspire:**
 
@@ -50,3 +54,17 @@ In the redesign, I aim to make the site more visually pleasing. The mood should 
 ![Tofino Gallery home page has a clear call to action](images/tofino1.jpg "Tofino Gallery home page")
 
 ![Tofino Gallery CTA for artists](images/tofino2.jpg "Tofino Gallery home page")
+
+### Colours
+
+Pearl Ellis has a logo and brand colours I can use for their site. The problem is that the main colour they use is business blue, which is very conservative and kind of boring. I plan to use less of the blue colour and showcase the artwork as the secondary colour scheme. Text will be the dark blue, consistent with the logo, and the art work will be left to shine on the neutral white background, like gallery walls.
+
+![Pearl Ellis Art Gallery logo](images/pearl-ellis-logo.jpg "Pearl Ellis Logo")
+
+- Primary: dark blue hex 303a75 OR light blue hex 407aab
+- Secondary (neutral): white hex FAFAFA or FFFFFF, since the logo isn't a vector
+- Accent: purple hex 802d7e
+
+### Fonts
+
+As with many galleries, Pearl Ellis uses san serif fonts. The logo appears to be Neu Frutiger, which is very similar in style to Roboto. To maintain consistency with the branding I will use Roboto for headings and open sans for body copy.
