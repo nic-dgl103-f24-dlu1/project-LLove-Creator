@@ -67,7 +67,7 @@ Pearl Ellis has a logo and brand colours I can use for their site. The problem i
 
 ### Fonts
 
-As with many galleries, Pearl Ellis uses sasn serif fonts. The logo appears to be Neu Frutiger, which is very similar in style to Roboto. To maintain consistency with the branding I will use Roboto for headings and open sans for body copy.
+As with many galleries, Pearl Ellis uses san serif fonts. The logo appears to be Neu Frutiger, which is very similar in style to Roboto. To maintain consistency with the branding I will use Roboto for headings and open sans for body copy.
 
 ---
 
