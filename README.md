@@ -133,7 +133,8 @@ Second footer
 
 - Logo
 - Social media links
-- Privacy policy and copyright
+- Privacy policy
+- Copyright
 - Disclaimer: "This is a fictional website designed and coded as an educational exercise."
 
 ---
