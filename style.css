@@ -42,6 +42,7 @@ header {
 header nav {
   background-color: #303a75;
   width: 100%;
+  position: relative;
 }
 
 nav ul {
@@ -49,6 +50,9 @@ nav ul {
   padding: 0;
   text-align: center;
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
