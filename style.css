@@ -28,7 +28,8 @@ h1 h2 h3 {
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   padding: 2.4rem;
@@ -37,8 +38,10 @@ header {
 nav ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 nav a {
   text-decoration: none;
+  color: #303a75;
 }
