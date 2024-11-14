@@ -25,15 +25,9 @@ h1 h2 h3 {
 
 /*-------- HEADER ---------*/
 
-header header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
 }
-
-.header-logo {
-  max-height: 72px;
-  width: auto;
-}
-
