@@ -32,7 +32,16 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 2.4rem;
+  padding-top: 2.4rem;
+}
+
+.header-logo {
+  padding-bottom: 1.6rem;
+}
+
+header nav {
+  background-color: #303a75;
+  width: 100%;
 }
 
 nav ul {
@@ -43,5 +52,6 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #303a75;
+  color: #f3f3f7;
+  line-height: 3.2rem;
 }
