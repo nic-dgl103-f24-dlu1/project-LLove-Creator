@@ -127,7 +127,7 @@ Next row:
   - Hours
   - Address
   - phone number
-  - email.
+  - email
 
 Second footer
 
@@ -151,7 +151,7 @@ Second footer
 
 - Image: High quality image of feature art work currently or upcoming at the gallery
 - Heading: Past, Present, and Future Shows
-- Subheading: Explore our exhibits celebrating local artists.
+- Subheading: Explore our exhibits celebrating local artists
   - CTA: "See Current Shows"
 
 **3. Upcoming Show Section**
