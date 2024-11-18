@@ -95,10 +95,16 @@ nav a {
 }
 
 .hero a {
+  display: inline-block;
   background: #f3f3f7;
   padding: 8px 24px;
   border: 3px solid #802d7e;
   border-radius: 3px;
   margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.hero img {
+
 }
 
