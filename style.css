@@ -180,3 +180,11 @@ nav a {
 .artists-copy {
   padding: 2rem;
 }
+
+/*-------- FOOTER SECTION ---------*/
+
+footer {
+  background-color: #303a75;
+  color: #f3f3f7;
+  padding: 2rem;
+}
