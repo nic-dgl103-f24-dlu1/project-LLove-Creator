@@ -253,4 +253,12 @@ footer {
     max-width: 80%;
   }
 
+/*-------- LARGE Workshops ---------*/
+
+  .workshop-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5rem
+  }
+
 }
