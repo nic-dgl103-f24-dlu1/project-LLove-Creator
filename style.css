@@ -218,4 +218,11 @@ footer {
     display: none;
   }
 
+/*-------- LARGE HERO ---------*/
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+  }
+
 }
