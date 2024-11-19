@@ -243,6 +243,7 @@ footer {
     text-align: left;
     align-content: center;
     padding: 12rem;
+    order: 2;
   }
 
 }
