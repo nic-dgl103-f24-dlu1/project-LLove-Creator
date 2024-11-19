@@ -329,4 +329,10 @@ footer {
     padding: 0;
   }
 
+  .copyright {
+    padding-bottom: 2rem;
+  }
+
+/*I don't know how to add social icons to the footer, so I haven't done that yet*/
+
 }
