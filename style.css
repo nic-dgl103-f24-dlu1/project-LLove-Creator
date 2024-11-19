@@ -193,3 +193,8 @@ footer {
   list-style: none;
   text-align: left;
 }
+
+.gallery-info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
