@@ -276,4 +276,11 @@ footer {
     justify-content: center;
   }
 
+/*-------- LARGE FOOTERS ---------*/
+
+  .foot-wrap {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
 }
