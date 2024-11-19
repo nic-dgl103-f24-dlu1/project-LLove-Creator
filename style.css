@@ -157,6 +157,10 @@ nav a {
 }
 
 /*-------- ARTISTS SECTION ---------*/
+ 
+.artists {
+  margin-bottom: 5rem;
+}
 
 .artists-img img {
   width: 100%;
@@ -173,6 +177,6 @@ nav a {
   display: inline-block;
 }
 
-.workshop-copy, .host-workshop {
+.artists-copy {
   padding: 2rem;
 }
