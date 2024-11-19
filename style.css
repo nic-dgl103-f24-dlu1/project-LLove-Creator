@@ -288,13 +288,28 @@ footer {
   .first-footer {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
   }
   /*The map as a bg colour dummy, until I learn about the Google Map Embed*/
   .map {
     width: 30%;
     height: 200px;
     background-color: #d6e9f5;
+    align-self: center;
+  }
+
+  .land-back {
+    text-align: left;
+  }
+
+  .foot-details {
+    width: 60%;
+    align-items: center;
+
+  }
+
+  .first-footer {
+    align-items: center;
+    justify-content: space-between;
   }
 
 }
