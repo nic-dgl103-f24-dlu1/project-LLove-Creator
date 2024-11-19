@@ -55,6 +55,7 @@ header nav {
   align-items: center;
   padding: 1rem;
   flex-direction: column;
+  border-bottom: 2px solid #d6e9f5;
 }
 
 nav ul {
@@ -84,6 +85,7 @@ nav a {
   background: none;
   border: none;
   color: #f3f3f7;
+  font-size: 3.2rem;
 }
 
 /*-------- HERO SECTION---------*/
