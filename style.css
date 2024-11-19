@@ -198,3 +198,20 @@ footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+/*========LARGE DEVICES (desktops, 1200px and up)========*/
+
+@media only screen and (min-width: 1200px) {
+
+/*-------- LARGE HEADER ---------*/
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+}
