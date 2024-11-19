@@ -210,6 +210,10 @@ footer {
     flex-direction: row;
   }
 
+  nav ul li {
+    margin: 0 1rem;
+  }
+
   .hamburger {
     display: none;
   }
