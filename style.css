@@ -281,6 +281,13 @@ footer {
   .foot-wrap {
     margin: 0 auto;
     max-width: 80%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-footer {
+    display: flex;
+    flex-direction: row;
   }
 
 }
