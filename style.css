@@ -163,3 +163,16 @@ nav a {
   max-height: 400px;
   object-fit: cover;
 }
+
+.cta-buttons .cta-button {
+  background: #802d7e;
+  padding: .8rem 2.4rem;
+  color: #f3f3f7;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+  display: inline-block;
+}
+
+.workshop-copy, .host-workshop {
+  padding: 2rem;
+}
