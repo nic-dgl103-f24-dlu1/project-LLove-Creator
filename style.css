@@ -35,10 +35,7 @@ a {
   color: #802d7e;
 }
 
-
 /*-------- HEADER ---------*/
-
-
 
 .header-logo {
   padding-top: 1.6rem;
@@ -126,7 +123,7 @@ nav a {
 .about a {
   display: inline-block;
   background: #802d7e;
-  padding: .8rem 2.4rem;
+  padding: 0.8rem 2.4rem;
   color: #f3f3f7;
   border-radius: 3px;
   margin-top: 1.6rem;
@@ -149,18 +146,19 @@ nav a {
 .workshops .cta-button {
   display: inline-block;
   background: #802d7e;
-  padding: .8rem 2.4rem;
+  padding: 0.8rem 2.4rem;
   color: #f3f3f7;
   border-radius: 3px;
   margin-top: 1.6rem;
 }
 
-.workshop-copy, .host-workshop {
+.workshop-copy,
+.host-workshop {
   padding: 2rem;
 }
 
 /*-------- ARTISTS SECTION ---------*/
- 
+
 .artists {
   margin-bottom: 5rem;
 }
@@ -173,7 +171,7 @@ nav a {
 
 .cta-buttons .cta-button {
   background: #802d7e;
-  padding: .8rem 2.4rem;
+  padding: 0.8rem 2.4rem;
   color: #f3f3f7;
   border-radius: 3px;
   margin-top: 1.6rem;
@@ -212,8 +210,7 @@ footer {
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
 
 @media only screen and (min-width: 1200px) {
-
-/*-------- LARGE HEADER ---------*/
+  /*-------- LARGE HEADER ---------*/
 
   nav ul {
     display: flex;
@@ -228,7 +225,7 @@ footer {
     display: none;
   }
 
-/*-------- LARGE HERO ---------*/
+  /*-------- LARGE HERO ---------*/
 
   .hero {
     display: flex;
@@ -256,7 +253,7 @@ footer {
     order: 2;
   }
 
-/*-------- LARGE ABOUT ---------*/
+  /*-------- LARGE ABOUT ---------*/
 
   .about {
     margin: 0 auto;
@@ -264,15 +261,15 @@ footer {
     padding: 5rem;
   }
 
-/*-------- LARGE Workshops ---------*/
+  /*-------- LARGE Workshops ---------*/
 
   .workshop-wrapper {
     max-width: 80%;
     margin: 0 auto;
-    padding: 5rem
+    padding: 5rem;
   }
 
-/*-------- LARGE ARTISTS SECTION ---------*/
+  /*-------- LARGE ARTISTS SECTION ---------*/
 
   .artists {
     margin: 0 auto;
@@ -286,7 +283,7 @@ footer {
     justify-content: center;
   }
 
-/*-------- LARGE FOOTERS ---------*/
+  /*-------- LARGE FOOTERS ---------*/
 
   .foot-wrap {
     margin: 0 auto;
@@ -315,7 +312,6 @@ footer {
   .foot-details {
     width: 60%;
     align-items: center;
-
   }
 
   .first-footer {
@@ -342,5 +338,4 @@ footer {
   .copyright {
     padding-bottom: 2rem;
   }
-
 }
