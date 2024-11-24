@@ -287,6 +287,12 @@ footer {
   margin: 0 auto;
 }
 
+.wrapper-form label {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
 .wrapper-button {
   display: flex;
   justify-content: flex-end;
