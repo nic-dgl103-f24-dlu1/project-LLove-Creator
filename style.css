@@ -341,6 +341,25 @@ input:required {
   border: 2px solid red;
 }
 
+input[type="submit"] {
+  background: #802d7e;
+  padding: 0.8rem 2.4rem;
+  color: #f3f3f7;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-style: none;
+}
+
+input[type="submit"]:hover {
+  background: #f3f3f7;
+  color: #802d7e;
+  border: 2px solid #802d7e;
+  border-radius: 3px;
+}
+
 
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
