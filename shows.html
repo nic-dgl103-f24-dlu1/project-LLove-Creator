@@ -82,9 +82,38 @@
       <section class="submissions">
         <div class="wrap">
         <h2>Submit Your Artwork to Exhibit&excl;</h2>
-        <p>We invite local artists to submit their work for upcoming exhibitions at the Pearl Ellis Gallery. Please complete the form below to apply. Submissions must adhere to gallery guidelines. For more detailed policies, click here to view the full Show Guidelines.</p>
+        <p>We invite local artists to submit their work for upcoming exhibitions at the Pearl Ellis Gallery. Please complete the form below to apply. Submissions must adhere to gallery guidelines. For more detailed policies, <a href="#">click here</a> to view the full Show Guidelines.</p>
         </div>
-        
+        <!--This form was copied from Claire Guiot's Codepen and adjusted for my purposes-->
+        <form method="post" action="#">
+            <div class="wrapper-form">
+            <h2>Submit Your Artwork to Exhibit&excl;</h2>
+            <p>We invite local artists to submit their work for upcoming exhibitions at the Pearl Ellis Gallery. Please complete the form below to apply. <a href="#">View Show Guidelines</a></p>
+            <form method="post" action="https://learndigital.dev/DGL103/dgl103-form.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Ex: Arty">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Ex: McArterson">
+          
+              <label for="email">Email <span class="label-required">* (required)</span></label>
+              <input type="email" id="email" name="email" placeholder="Ex: artymcarterson@gmail.com" required>
+
+              <fieldset>
+                <legend>Choose what medium you work in&colon;</legend>
+                <input type="radio" id="medium" name="medium" value="Oil Paint">
+                <label for="Oil Paint">Oil Paint</label><br>
+              </fieldset>
+          
+              <label for="bio">Short Bio and Show Statement</label>
+              <textarea id="bio" name="bio" placeholder="Please tell us a little about your yourself and your ideas" style="height:200px"></textarea>
+          
+              <div class="wrapper-button">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+          </form>
       </section>
     </main>
     <footer>
