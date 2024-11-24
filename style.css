@@ -456,7 +456,6 @@ input[type="submit"]:hover {
   .map {
     width: 30%;
     height: 200px;
-    background-color: #d6e9f5;
     align-self: center;
   }
 
