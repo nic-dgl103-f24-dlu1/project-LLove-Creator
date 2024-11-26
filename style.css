@@ -367,8 +367,12 @@ input[type="submit"]:hover {
 
 table {
   text-align: left;
+  width: 100%;
 }
 
+td, th {
+  padding: .8rem;
+}
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
 
