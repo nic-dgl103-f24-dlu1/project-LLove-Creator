@@ -393,13 +393,18 @@ tr:nth-child(odd) {
 }
 
 tbody tr:hover {
-  background-color: #802d7e;
-  color: #f3f3f7;
+  background-color: #e7dee7;
 }
 
 .table-wrap {
   overflow-x: auto;
 }
+
+table a {
+  color: #303a75;
+  text-decoration: underline;
+}
+
 
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
