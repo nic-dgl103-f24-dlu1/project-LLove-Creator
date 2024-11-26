@@ -374,6 +374,7 @@ table {
 
 td, th {
   padding: .8rem;
+  text-wrap: nowrap;
 }
 
 th {
@@ -381,7 +382,6 @@ th {
   padding-bottom: 1.2rem;
   background-color: #303a75;
   color: #f3f3f7;
-  text-wrap: nowrap;
 }
 
 tr:nth-child(even) {
@@ -395,6 +395,10 @@ tr:nth-child(odd) {
 tbody tr:hover {
   background-color: #802d7e;
   color: #f3f3f7;
+}
+
+.table-wrap {
+  overflow-x: auto;
 }
 
 
