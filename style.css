@@ -362,8 +362,10 @@ input[type="submit"]:hover {
 
 /*-------- Shows Video ---------*/
 
-.vid-wrap {
-  max-width: 100%;
+.vid-wrap iframe {
+  width: 100%;
+  height: auto;
+  max-width: 100%
 }
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
