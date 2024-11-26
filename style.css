@@ -384,6 +384,13 @@ th {
   text-wrap: nowrap;
 }
 
+tr:nth-child(even) {
+  background-color: #f3f3f7;
+}
+
+tr:nth-child(odd) {
+  background-color: #e6edf1;
+}
 
 
 
