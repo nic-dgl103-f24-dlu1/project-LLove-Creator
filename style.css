@@ -360,7 +360,11 @@ input[type="submit"]:hover {
   border-radius: 3px;
 }
 
+/*-------- Shows Video ---------*/
 
+.vid-wrap {
+  max-width: 100%;
+}
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
 
