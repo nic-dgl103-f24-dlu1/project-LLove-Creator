@@ -363,6 +363,13 @@ input[type="submit"]:hover {
 /*-------- Shows Video ---------*/
 
 
+/*======== ARTIST DIRECTORY PAGE ========*/
+
+table {
+  text-align: left;
+}
+
+
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
 
 @media only screen and (min-width: 1200px) {
