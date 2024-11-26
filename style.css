@@ -365,7 +365,7 @@ input[type="submit"]:hover {
 
 /*======== ARTIST DIRECTORY PAGE ========*/
 
-/*Much guidance from Claire Guiot's Codepen https://codepen.io/AskClaireGuiot/pen/qBXyrjB?editors=0110*/
+/*Much guidance from Claire Guiot's Codepen, adjusted to suit my table requirements https://codepen.io/AskClaireGuiot/pen/qBXyrjB?editors=0110*/
 
 table {
   text-align: left;
@@ -392,7 +392,10 @@ tr:nth-child(odd) {
   background-color: #e6edf1;
 }
 
-
+tbody tr:hover {
+  background-color: #802d7e;
+  color: #f3f3f7;
+}
 
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
