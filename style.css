@@ -275,7 +275,12 @@ footer {
   padding: 2rem;
 }
 
-.upcoming, .more-upcoming {
+.upcoming,
+.more-upcoming,
+.recent,
+.old,
+.oldest
+{
   padding: 2em;
 }
 
@@ -376,10 +381,25 @@ input[type="file"] {
   padding-top: .8rem;
 }
 
+.past-wrap img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 200px;
+}
+
+.past-wrap {
+  margin: 1em;
+}
+
+.past-wrap h2 {
+  padding-top: 2em;
+}
+
 /*-------- Shows Video Section ---------*/
 
 .news {
   margin: 1em;
+  padding-bottom: 2em;
 }
 
 .vid-wrap iframe {
