@@ -405,6 +405,10 @@ table a {
   text-decoration: underline;
 }
 
+table a:hover {
+  cursor: pointer;
+}
+
 
 
 /*========LARGE DEVICES (desktops, 1200px and up)========*/
