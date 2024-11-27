@@ -553,7 +553,7 @@ table a:hover {
     display: flex;
     flex-direction: row;
   }
-  /*The map as a bg colour dummy, until I learn about the Google Map Embed*/
+
   .map {
     width: 30%;
     height: 200px;
@@ -622,8 +622,27 @@ table a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     width: 72%;
     margin: 0 auto;
+  }
+
+  .past-wrap img {
+    max-height: 150px;
+  }
+
+  .recent {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  .old {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  .oldest {
+    flex: 1 1 300px;
+    text-align: left;
   }
 }
