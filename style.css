@@ -584,6 +584,8 @@ table a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    width: 72%
   }
 
   .more-upcoming {
