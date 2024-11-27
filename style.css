@@ -380,6 +380,7 @@ input[type="submit"]:hover {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
+  max-width: 600px;
 }
 
 /*======== ARTIST DIRECTORY PAGE ========*/
