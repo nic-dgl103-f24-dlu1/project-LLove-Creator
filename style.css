@@ -598,7 +598,10 @@ table a:hover {
 
   /*===========LARGE SHOWS PAGE=============*/
 
-  
+  .up h2 {
+    margin: 3em;
+  }
+
   .upcoming-wrap {
     display: flex;
     flex-direction: row;
@@ -616,6 +619,10 @@ table a:hover {
   .upcoming {
     flex: 1 1 300px;
 
+  }
+
+  .submissions {
+    
   }
 
   .past-wrap {
