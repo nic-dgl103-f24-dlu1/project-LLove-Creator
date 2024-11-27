@@ -579,8 +579,16 @@ table a:hover {
 
   /*===========LARGE SHOWS PAGE=============*/
   
-  .upcoming-wrap {
-    display: flex;
-    flex-direction: row;
-}
+  .upcoming {
+    float: left;
+    width: 300px;
+    padding: 10px;
+  }
 
+  .more-upcoming {
+    float: right;
+    width: 300px;
+    padding: 10px;
+  }
+
+}
