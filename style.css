@@ -618,6 +618,7 @@ table a:hover {
 
   .upcoming {
     flex: 1 1 300px;
+    text-align: left;
 
   }
 
