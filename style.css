@@ -275,6 +275,16 @@ footer {
   padding: 2rem;
 }
 
+.upcoming {
+  padding: 1em;
+}
+
+.upcoming img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
 /*-------- FORM STYLES ---------*/
 
 /*Styles are borrowed from Claire Guiot's Codepen and adjusted to fit my layout*/
