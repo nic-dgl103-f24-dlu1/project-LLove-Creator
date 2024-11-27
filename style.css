@@ -591,4 +591,9 @@ table a:hover {
     padding: 10px;
   }
 
+  .upcoming-wrap {
+    content: "";
+    display: block;
+    clear: table;
+  }
 }
