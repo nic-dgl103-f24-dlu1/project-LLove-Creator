@@ -579,10 +579,10 @@ table a:hover {
 
   /*===========LARGE SHOWS PAGE=============*/
   
-  .upcoming, .more-upcoming {
-    margin: 0 auto;
-    max-width: 50%;
-    padding: 5rem;
+  .upcoming-wrap {
+    display: flex;
   }
+  
+
 }
 
