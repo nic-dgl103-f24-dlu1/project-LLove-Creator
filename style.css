@@ -581,8 +581,15 @@ table a:hover {
   
   .upcoming-wrap {
     display: flex;
+    flex-direction: row;
   }
   
+  .upcoming {
+    flex: 1 1 300px;
+  }
 
+  .more-upcoming {
+    flex: 1 1 300px;
+  }
 }
 
