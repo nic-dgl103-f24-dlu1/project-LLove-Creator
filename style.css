@@ -387,13 +387,10 @@ input[type="file"] {
   max-width: 200px;
 }
 
-.past-wrap {
-  margin: 1em;
+.past {
+  margin: 2em;
 }
 
-.past-wrap h2 {
-  padding-top: 2em;
-}
 
 /*-------- Shows Video Section ---------*/
 
@@ -619,5 +616,14 @@ table a:hover {
   .upcoming {
     flex: 1 1 300px;
 
+  }
+
+  .past-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 72%;
+    margin: 0 auto;
   }
 }
