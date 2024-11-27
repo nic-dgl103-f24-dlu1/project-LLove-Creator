@@ -578,26 +578,17 @@ table a:hover {
   }
 
   /*===========LARGE SHOWS PAGE=============*/
+
   
-  .upcoming {
-    float: left;
-    width: 300px;
-    padding: 10px;
+  .upcoming-wrap {
+
   }
 
   .more-upcoming {
-    float: right;
-    width: 300px;
-    padding: 10px;
+
   }
 
-  .upcoming-wrap {
-    content: "";
-    display: block;
-    clear: both;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
+  .upcoming {
 
   }
 }
