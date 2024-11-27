@@ -365,6 +365,12 @@ input[type="submit"]:hover {
 
 /*======== ARTIST DIRECTORY PAGE ========*/
 
+.directory-img img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
 /*Much guidance from Claire Guiot's Codepen, adjusted to suit my table requirements https://codepen.io/AskClaireGuiot/pen/qBXyrjB?editors=0110*/
 
 table {
