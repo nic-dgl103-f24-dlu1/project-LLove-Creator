@@ -276,13 +276,14 @@ footer {
 }
 
 .upcoming {
-  padding: 1em;
+  padding: 2em;
 }
 
 .upcoming img {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
+  max-width: 600px;
 }
 
 /*-------- FORM STYLES ---------*/
