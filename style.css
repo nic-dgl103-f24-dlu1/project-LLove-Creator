@@ -594,6 +594,10 @@ table a:hover {
   .upcoming-wrap {
     content: "";
     display: block;
-    clear: table;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+
   }
 }
