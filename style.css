@@ -529,7 +529,7 @@ table a:hover {
 
   .artists {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 72%;
     padding: 5rem;
   }
 
@@ -621,8 +621,19 @@ table a:hover {
 
   }
 
-  .submissions {
-    
+  .wrapper-form {
+    margin: 0 auto;
+    max-width: 72%;
+  }
+
+  .wrap {
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 2em;
+  }
+
+  .wrap h2 {
+    margin: 0;
   }
 
   .past-wrap {
