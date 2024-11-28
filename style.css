@@ -666,7 +666,6 @@ table a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: top;
     width: 72%;
     margin: 0 auto;
   }
