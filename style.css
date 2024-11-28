@@ -42,6 +42,10 @@ h1 {
   font-size: 3.2rem;
 }
 
+h2 {
+  line-height: 4.0rem;
+}
+
 h1 h2 h3 {
   font-family: "Roboto", serif;
   font-weight: 400;
