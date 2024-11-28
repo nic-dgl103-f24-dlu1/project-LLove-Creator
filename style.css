@@ -409,6 +409,13 @@ input[type="file"] {
 
 /*======== ARTIST DIRECTORY PAGE ========*/
 
+
+.directory {
+  background-color: #d6e9f5;
+  padding-bottom: 3rem;
+}
+
+
 .directory-img img {
   width: 100%;
   max-width: 400px;
@@ -682,6 +689,15 @@ table a:hover {
 /*===========LARGE ARTIST DIRECTORY PAGE=============*/
   
 /*-------- LARGE MEMBER SECTION ---------*/
+
+  .about {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .directory {
+    padding: 5rem;
+  }
 
 /*-------- LARGE ARTIST DIRECTORY SECTION ---------*/
 
