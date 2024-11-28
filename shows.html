@@ -166,54 +166,55 @@
 
               <fieldset>
                 <legend>Choose what medium you work in&colon;</legend>
-                <input type="radio" id="oil" name="oil" value="Oil Paint" />
-                <label for="Oil Paint">Oil Paint</label><br />
+                <input type="radio" id="oil" name="oil" value="oil" />
+                <label for="oil">Oil Paint</label><br />
                 <input type="radio" id="paints" name="paints" value="paints" />
-                <label for="acrylic">Paints</label><br />
+                <label for="paints">Other Paints</label><br />
                 <input
                   type="radio"
                   id="multi-media"
                   name="multi-media"
-                  value="Multi-Media"
+                  value="multi-media"
                 />
                 <label for="multi-media">Multi-Media</label><br />
                 <input
                   type="radio"
                   id="sculpture"
                   name="sculpture"
-                  value="Sculpture"
+                  value="sculpture"
                 />
-                <label for="Sculpture">Sculpture</label><br />
-                <input type="radio" id="fibre" name="Fibre" value="Fibre" />
-                <label for="Fibre">Fibre</label><br />
+                <label for="sculpture">Sculpture</label><br />
+                <input type="radio" id="fibre" name="fibre" value="fibre" />
+                <label for="fibre">Fibre</label><br />
                 <input
                   type="radio"
-                  id="Photography"
-                  name="Photography"
-                  value="Photography"
+                  id="photography"
+                  name="photography"
+                  value="photography"
                 />
-                <label for="Photography">Photography</label><br />
+                <label for="photography">Photography</label><br />
                 <input
                   type="radio"
-                  id="None of the above"
+                  id="other"
                   name="other"
                   value="other"
                 />
                 <label for="other"
-                  >None of the above:<br />Cool! Tell us more in your statement
+                  >None of the above&colon;<br />Cool! Tell us more in your statement
                   below.</label
                 ><br />
               </fieldset>
 
-              <label for="images">Upload your images here&colon;</label><br />
-              <input type="file" id="myFile1" name="filename" />
-              <input type="hidden" />
-              <input type="file" id="myFile2" name="filename" />
-              <input type="hidden" />
-              <input type="file" id="myFile3" name="filename" />
-              <input type="hidden" />
+              <div class="form-upload">
+                <p>Upload your images here&colon;</p></div>
+              <label for="myFile1">Image 1</label>
+              <input type="file" id="myFile1" name="filename" /><br>
+              <label for="myFile2">Image 2</label>
+              <input type="file" id="myFile2" name="filename" /><br>
+              <label for="myFile3">Image 3</label>
+              <input type="file" id="myFile3" name="filename" /><br>
+              <label for="myFile4">Image 4</label>
               <input type="file" id="myFile4" name="filename" />
-              <input type="hidden" />
               <br />
 
               <label for="bio">Provide a short bio and artist statement:</label>
@@ -301,7 +302,6 @@
               height="315"
               src="https://www.youtube.com/embed/h0WL2Pjwrgg?si=ljXKkwQadVh-30f4"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
