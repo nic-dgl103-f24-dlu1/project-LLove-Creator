@@ -30,7 +30,9 @@ body {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -43,7 +45,7 @@ h1 {
 }
 
 h2 {
-  line-height: 4.0rem;
+  line-height: 4rem;
 }
 
 h1 h2 h3 {
@@ -95,12 +97,12 @@ nav ul.active {
 nav a {
   text-decoration: underline;
   color: #f3f3f7;
-  font-size: 2.0rem;
+  font-size: 2rem;
   line-height: 3.2rem;
 }
 
 nav a:hover {
-  color:#d6e9f5
+  color: #d6e9f5;
 }
 
 .hamburger {
@@ -140,7 +142,7 @@ nav a:hover {
 .hero a:hover {
   background-color: #802d7e;
   color: #f3f3f7;
-  border: 2px solid #f3f3f7
+  border: 2px solid #f3f3f7;
 }
 
 .hero-img img {
@@ -284,8 +286,7 @@ footer {
 .more-upcoming,
 .recent,
 .old,
-.oldest
-{
+.oldest {
   padding: 2em;
 }
 
@@ -329,7 +330,7 @@ textarea {
   padding: 1.2rem;
   border: 1px solid #d6e9f5;
   border-radius: 4px;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
   margin-bottom: 1.6rem;
   resize: vertical;
 }
@@ -339,7 +340,7 @@ input[type="email"] {
   padding: 1.2rem;
   border: 1px solid #d6e9f5;
   border-radius: 2px;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
   margin-bottom: 1.6rem;
   resize: vertical;
 }
@@ -383,7 +384,7 @@ input[type="submit"]:hover {
 
 input[type="file"] {
   padding-bottom: 1.6rem;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
 }
 
 /*--------Past Shows Section--------*/
@@ -397,7 +398,6 @@ input[type="file"] {
 .past {
   margin: 2em;
 }
-
 
 /*-------- Shows Video Section ---------*/
 
@@ -415,12 +415,10 @@ input[type="file"] {
 
 /*======== ARTIST DIRECTORY PAGE ========*/
 
-
 .directory {
   background-color: #d6e9f5;
   padding-bottom: 3rem;
 }
-
 
 .directory-img img {
   width: 100%;
@@ -435,8 +433,9 @@ table {
   width: 100%;
 }
 
-td, th {
-  padding: .8rem;
+td,
+th {
+  padding: 0.8rem;
   text-wrap: nowrap;
 }
 
@@ -472,14 +471,11 @@ table a:hover {
   cursor: pointer;
 }
 
-
-
 /*========MEDIA QUERIES !! LARGE DEVICES (desktops, 1200px and up)========*/
 
 @media only screen and (min-width: 1200px) {
-  
   /*===========LARGE HOME PAGE=============*/
-  
+
   /*-------- LARGE HEADER ---------*/
 
   nav ul {
@@ -636,10 +632,9 @@ table a:hover {
   .upcoming {
     flex: 1 1 300px;
     text-align: left;
-
   }
 
-    /*------ LARGE SUBMISSIONS SECTION -------*/
+  /*------ LARGE SUBMISSIONS SECTION -------*/
 
   .wrapper-form {
     margin: 0 auto;
@@ -656,7 +651,7 @@ table a:hover {
     margin: 0;
   }
 
-/*------ LARGE PAST SHOWS SECTION -------*/
+  /*------ LARGE PAST SHOWS SECTION -------*/
 
   .past-wrap {
     display: flex;
@@ -686,14 +681,13 @@ table a:hover {
     text-align: left;
   }
 
-/*------ LARGE NEWS SECTION -------*/
+  /*------ LARGE NEWS SECTION -------*/
 
   .vid-wrap iframe {
     margin-bottom: 3em;
   }
 
-/*===========LARGE ARTIST DIRECTORY PAGE=============*/
-  
+  /*===========LARGE ARTIST DIRECTORY PAGE=============*/
 
   .about {
     margin: 0 auto;
@@ -721,5 +715,4 @@ table a:hover {
     padding-top: 5em;
     padding-bottom: 5em;
   }
-
 }
