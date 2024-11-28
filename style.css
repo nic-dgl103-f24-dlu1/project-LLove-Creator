@@ -58,6 +58,11 @@ a {
   color: #802d7e;
 }
 
+hr {
+  width: 75%;
+  border: 1px solid #303a75;
+}
+
 /*========= HOME PAGE ========*/
 
 /*-------- HEADER ---------*/
