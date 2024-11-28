@@ -435,6 +435,10 @@ iframe {
   object-fit: cover;
 }
 
+.direct-wrap {
+  margin: 1em;
+}
+
 /*Much guidance from Claire Guiot's Codepen, adjusted to suit my table requirements https://codepen.io/AskClaireGuiot/pen/qBXyrjB?editors=0110*/
 
 table {
