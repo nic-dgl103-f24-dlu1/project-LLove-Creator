@@ -617,7 +617,7 @@ table a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 72%;
+    width: 60%;
     margin: 0 auto;
     padding-bottom: 3em;
   }
@@ -637,7 +637,7 @@ table a:hover {
 
   .wrapper-form {
     margin: 0 auto;
-    max-width: 72%;
+    max-width: 60%;
   }
 
   .wrap {
