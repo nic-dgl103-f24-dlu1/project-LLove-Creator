@@ -528,7 +528,7 @@ table a:hover {
   /*-------- LARGE Workshops ---------*/
 
   .workshop-wrapper {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 5rem;
   }
@@ -697,6 +697,24 @@ table a:hover {
 
   .directory {
     padding: 5rem;
+  }
+
+  .directory p {
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 2rem;
+  }
+
+  .table-wrap {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .artists {
+    margin: 0 auto;
+    max-width: 60%;
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
 
 /*-------- LARGE ARTIST DIRECTORY SECTION ---------*/
