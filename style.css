@@ -1,0 +1,730 @@
+/*========= GLOBAL STYLES =========*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin: 0 auto;
+  color: #303a75;
+  text-align: center;
+}
+
+/* === GROW Transition Requirement ===*/
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*========= TYPOGRAPHY =========*/
+
+h1 {
+  line-height: 4.8rem;
+  font-size: 3.2rem;
+}
+
+h2 {
+  line-height: 4rem;
+}
+
+h1 h2 h3 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: #802d7e;
+}
+
+hr {
+  width: 75%;
+  border: 1px solid #303a75;
+}
+
+/*========= HOME PAGE ========*/
+
+/*-------- HEADER ---------*/
+
+.header-logo {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  margin: 0;
+}
+
+header nav {
+  background-color: #303a75;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+  border-bottom: 2px solid #d6e9f5;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul.active {
+  display: flex;
+}
+
+nav a {
+  text-decoration: underline;
+  color: #f3f3f7;
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+
+nav a:hover {
+  color: #d6e9f5;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #f3f3f7;
+  font-size: 3.2rem;
+}
+
+/*-------- HERO SECTION---------*/
+
+.hero-copy {
+  background-color: #303a75;
+  color: #f3f3f7;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 h3 {
+  font-weight: 400;
+}
+
+.hero a {
+  display: inline-block;
+  background: #f3f3f7;
+  padding: 8px 24px;
+  border: 2px solid #802d7e;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+}
+
+.hero a:hover {
+  background-color: #802d7e;
+  color: #f3f3f7;
+  border: 2px solid #f3f3f7;
+}
+
+.hero-img img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/*-------- ABOUT SECTION ---------*/
+
+.about {
+  padding: 2rem;
+}
+
+.about a {
+  display: inline-block;
+  background: #802d7e;
+  padding: 0.8rem 2.4rem;
+  color: #f3f3f7;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.about a:hover {
+  background: #f3f3f7;
+  color: #802d7e;
+  border: 2px solid #802d7e;
+  border-radius: 3px;
+}
+
+/*-------- WORKSHOP SECTION ---------*/
+
+.workshop-img img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.workshops {
+  background-color: #d6e9f5;
+  padding: 2rem;
+}
+
+.workshops a {
+  display: inline-block;
+  background: #802d7e;
+  padding: 0.8rem 2.4rem;
+  color: #f3f3f7;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+}
+
+.workshop-copy,
+.host-workshop {
+  padding: 2rem;
+}
+
+.workshops a:hover {
+  background: #f3f3f7;
+  color: #802d7e;
+  border: 2px solid #802d7e;
+  border-radius: 3px;
+}
+
+/*-------- ARTISTS SECTION ---------*/
+
+.artists {
+  margin-bottom: 5rem;
+}
+
+.artists-img img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.cta-buttons a {
+  background: #802d7e;
+  padding: 0.8rem 2.4rem;
+  color: #f3f3f7;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.cta-buttons a:hover {
+  background: #f3f3f7;
+  color: #802d7e;
+  border: 2px solid #802d7e;
+  border-radius: 3px;
+}
+
+.artists-copy {
+  padding: 2rem;
+}
+
+/*-------- FOOTER SECTION ---------*/
+
+footer {
+  background-color: #303a75;
+  color: #f3f3f7;
+  padding: 2rem;
+}
+
+.gallery-info ul {
+  list-style: none;
+  text-align: left;
+}
+
+.gallery-info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.socials a {
+  font-size: 2.4rem;
+  color: #f3f3f7;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.socials a:hover {
+  color: #d6e9f5;
+}
+
+.iframe {
+  max-width: 200px;
+}
+
+/*========= SHOWS PAGE =========*/
+
+.submissions {
+  background-color: #d6e9f5;
+  padding: 2rem;
+}
+
+.upcoming,
+.more-upcoming,
+.recent,
+.old,
+.oldest {
+  padding: 2em;
+}
+
+.upcoming img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  max-width: 600px;
+}
+
+/*-------- FORM STYLES ---------*/
+
+/*Styles are borrowed from Claire Guiot's Codepen and adjusted to fit my layout*/
+
+.wrapper-form {
+  background-color: #f3f3f7;
+  border-radius: 2px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*----Form Controls----*/
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid #d6e9f5;
+  border-radius: 4px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid #d6e9f5;
+  border-radius: 2px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  resize: vertical;
+}
+
+textarea {
+  font-family: "Open-Sans";
+}
+
+fieldset {
+  margin-bottom: 1.6rem;
+  border: 1px solid #d6e9f5;
+}
+
+.label-required {
+  font-size: 1.2rem;
+  color: red;
+}
+
+input:required {
+  border: 2px solid red;
+}
+
+input[type="submit"] {
+  background: #802d7e;
+  padding: 0.8rem 2.4rem;
+  color: #f3f3f7;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-style: none;
+}
+
+input[type="submit"]:hover {
+  background: #f3f3f7;
+  color: #802d7e;
+  border: 2px solid #802d7e;
+  border-radius: 3px;
+}
+
+input[type="file"] {
+  padding-bottom: 1.6rem;
+  padding-top: 0.8rem;
+}
+
+/*--------Past Shows Section--------*/
+
+.past-wrap img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 200px;
+}
+
+.past {
+  margin: 2em;
+}
+
+/*-------- Shows Video Section ---------*/
+
+.news {
+  margin: 1em;
+  padding-bottom: 2em;
+}
+
+iframe {
+  border: none;
+}
+
+.vid-wrap iframe {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  max-width: 600px;
+}
+
+/*======== ARTIST DIRECTORY PAGE ========*/
+
+.directory {
+  background-color: #d6e9f5;
+  padding-bottom: 3rem;
+}
+
+.directory-img img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+.direct-wrap {
+  margin: 1em;
+}
+
+/*Much guidance from Claire Guiot's Codepen, adjusted to suit my table requirements https://codepen.io/AskClaireGuiot/pen/qBXyrjB?editors=0110*/
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 0.8rem;
+  text-wrap: nowrap;
+}
+
+th {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  background-color: #303a75;
+  color: #f3f3f7;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3f7;
+}
+
+tr:nth-child(odd) {
+  background-color: #e6edf1;
+}
+
+tbody tr:hover {
+  background-color: #e7dee7;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table a {
+  color: #303a75;
+  text-decoration: underline;
+}
+
+table a:hover {
+  cursor: pointer;
+}
+
+/*========MEDIA QUERIES !! LARGE DEVICES (desktops, 1200px and up)========*/
+
+@media only screen and (min-width: 1200px) {
+  /*===========LARGE HOME PAGE=============*/
+
+  /*-------- LARGE HEADER ---------*/
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    margin: 0 1rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  /*-------- LARGE HERO ---------*/
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 610px;
+  }
+
+  .hero-img {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero-copy {
+    width: 40%;
+    text-align: left;
+    align-content: center;
+    padding: 12rem;
+    order: 2;
+  }
+
+  /*-------- LARGE ABOUT ---------*/
+
+  .about {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 5rem;
+  }
+
+  /*-------- LARGE Workshops ---------*/
+
+  .workshop-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 5rem;
+  }
+
+  /*-------- LARGE ARTISTS SECTION ---------*/
+
+  .artists {
+    margin: 0 auto;
+    max-width: 72%;
+    padding: 5rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+  }
+
+  /*-------- LARGE FOOTERS ---------*/
+
+  .foot-wrap {
+    margin: 0 auto;
+    max-width: 72%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .first-footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .map {
+    width: 30%;
+    height: 200px;
+    align-self: center;
+  }
+
+  .land-back {
+    text-align: left;
+  }
+
+  .foot-details,
+  .copyright {
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .first-footer {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .gallery-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .gallery-info img {
+    max-height: 80px;
+    margin-top: 2rem;
+  }
+
+  .gallery-info ul {
+    padding: 0;
+  }
+
+  .copyright {
+    padding-bottom: 2rem;
+  }
+
+  /*===========LARGE SHOWS PAGE=============*/
+
+  /*------ LARGE UPCOMING SECTION -------*/
+
+  .up h2 {
+    margin: 3em;
+  }
+
+  .upcoming-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+  }
+
+  .more-upcoming {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  .upcoming {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  /*------ LARGE SUBMISSIONS SECTION -------*/
+
+  .wrapper-form {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .wrap {
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 2em;
+  }
+
+  .wrap h2 {
+    margin: 0;
+  }
+
+  /*------ LARGE PAST SHOWS SECTION -------*/
+
+  .past-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 72%;
+    margin: 0 auto;
+  }
+
+  .past-wrap img {
+    max-height: 150px;
+  }
+
+  .recent {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  .old {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  .oldest {
+    flex: 1 1 300px;
+    text-align: left;
+  }
+
+  /*------ LARGE NEWS SECTION -------*/
+
+  .vid-wrap iframe {
+    margin-bottom: 3em;
+  }
+
+  /*===========LARGE ARTIST DIRECTORY PAGE=============*/
+
+  .about {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .directory {
+    padding: 5rem;
+  }
+
+  .directory p {
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 2rem;
+  }
+
+  .table-wrap {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .artists {
+    margin: 0 auto;
+    max-width: 60%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
